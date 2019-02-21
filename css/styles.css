@@ -1,0 +1,20 @@
+body {
+    background-color: darkcyan;
+}
+
+.tabContainer {
+    background-color: transparent;
+    color: black;
+    border: thin;
+}
+
+.buttonContainer {
+    background-color: black;
+    display: block;
+}
+
+button {
+    height: 30px;
+    text-decoration-color: aqua;
+    text-decoration: darkslategrey
+}
