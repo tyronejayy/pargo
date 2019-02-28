@@ -1,0 +1,85 @@
+@import 'partials/_variables';
+
+/**** Navbar ****/
+
+.navbar {
+    min-height: auto;
+    border: none !important;
+    padding: 0 !important;
+
+    img {
+        height: 100%;
+    }
+
+    .navbar-nav {
+        flex-direction: inherit;
+    }
+
+    .navbar-nav > li > a {
+        padding: 40px;
+    }
+
+    .container-fluid {
+        display: block !important;
+        
+    }
+
+    .navbar-brand {
+        height: 100px;
+        display: inline-block;
+        padding: 5px;
+
+        p {
+            display: inline;
+        }
+    }
+
+    .navbar-right {
+        font-size: 20px;
+
+        a {
+            color: black !important;
+            font-weight: 600;
+
+            &:hover {
+                background-color: black !important;
+                color: $terColor !important;
+                transition: all .3s ease-in; 
+            }
+        }
+        
+
+        .login {
+            background-color:  $primColor;
+        }
+
+        .track {
+            background-color: $secColor;
+        }
+
+    }
+
+}
+
+/**** Button Container ****/
+
+.button-container {
+
+    ul > li > a {
+        background-color: white;
+        padding: 30px;
+        font-size: 30px;
+        font-weight: 600;
+        text-transform: uppercase;
+        border-bottom: 5px solid grey; 
+        color: $otherColor;
+
+        &:hover {
+            transition: all .3s ease-in;
+            background-color: #D3D3D3;
+            color: $otherColor;
+        }
+
+    }
+
+}

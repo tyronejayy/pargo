@@ -1,0 +1,13 @@
+@import 'partials/_variables';
+
+* {
+    margin: 0;
+}
+
+.landing-page {
+    margin: 0;
+    height: 80vh;
+    background: url(../img/home.jpg);
+    background-size: cover;
+}
+
